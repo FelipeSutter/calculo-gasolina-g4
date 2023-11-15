@@ -9,8 +9,8 @@ import {
   Modal,
 } from "react-native";
 import React, { useState } from "react";
-import Input from "../../components/MeuInput";
-import SuperButton from "../../components/MeuButton";
+import Input from "../../components/Input";
+import SuperButton from "../../components/Button";
 import ActiveModal from "../../components/ActiveModal";
 import alcoolImg from "../../../assets/alcool-img.png";
 import gasolinaImg from "../../../assets/gasolina-img.png";

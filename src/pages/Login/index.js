@@ -1,7 +1,7 @@
 import { Text, View } from "react-native";
 import styles from "./style";
-import Input from "../../components/MeuInput";
-import SuperButton from "../../components/MeuButton";
+import Input from "../../components/Input";
+import SuperButton from "../../components/Button";
 import { useState } from "react";
 
 const Login = () => {

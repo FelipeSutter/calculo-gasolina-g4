@@ -1,6 +1,6 @@
 import { View, Text, Image, StyleSheet } from "react-native";
 import React from "react";
-import SuperButton from "../MeuButton";
+import SuperButton from "../Button";
 
 const ActiveModal = (props) => {
   return (
