@@ -25,7 +25,7 @@ export default function Home() {
     if (!gasolina || !alcool) {
       alert("Os campos não podem ser vazios.");
     } else {
-      setResultado(parseFloat(gasolina / alcool), 2);
+      setResultado(parseFloat(gasolina / alcool).toFixed(2));
       setModal(true);
     }
   };
@@ -46,7 +46,7 @@ export default function Home() {
         setValor={setGasolina}
       />
       <Input
-        label="Alcool (preço por L)"
+        label="Álcool (preço por L)"
         placeholder="4.50"
         mask={false}
         type="numeric"

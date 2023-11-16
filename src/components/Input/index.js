@@ -30,7 +30,7 @@ const style = StyleSheet.create({
   },
   label: {
     fontSize: 18,
-    color: "#ff440b",
+    color: "#fff",
   },
 });
 
