@@ -22,8 +22,12 @@ export default function Home() {
   const [modal, setModal] = useState(false);
 
   const calcularMedia = () => {
-    setResultado(gasolina / alcool);
-    setModal(true);
+    if (!gasolina || !alcool) {
+      alert("Os campos não podem ser vazios.");
+    } else {
+      setResultado(parseFloat(gasolina / alcool), 2);
+      setModal(true);
+    }
   };
 
   return (
